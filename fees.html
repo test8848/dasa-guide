@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DASA UG Fee Structure — Tuition, Registration &amp; Hostel Costs | DASA Guide</title>
+<meta name="description" content="DASA UG fee breakdown by category — Non-SAARC, SAARC, and CIWG — plus a rough interactive cost estimator for tuition, hostel and mess charges.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="nav-wrap">
+    <a href="index.html" class="brand"><span class="stamp">DA</span><span>DASA GUIDE<small>Direct Admission of Students Abroad</small></span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="eligibility.html">Eligibility</a>
+      <a href="institutes.html">Institutes</a>
+      <a href="process.html">Process</a>
+      <a href="fees.html">Fees</a>
+      <a href="faq.html">FAQ</a>
+      <a href="eligibility.html" class="nav-cta">Check Eligibility</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+<div class="airmail-edge"></div>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="crumb">Home <span>/</span> Fees</div>
+    <span class="eyebrow">Cost of the ticket</span>
+    <h1>What DASA actually costs, by category</h1>
+    <p>Fees vary by institute, but the structure is consistent: a one-time registration fee, a per-semester tuition fee that depends on your category, and hostel/mess charges billed separately.</p>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="container">
+    <div class="callout reveal">
+      <strong>These figures are illustrative, not official.</strong> Actual tuition varies by institute (IIIT Hyderabad, for instance, publishes its own separate DASA fee schedule) and changes yearly. Treat every number on this page as a planning estimate — confirm exact figures in the current year's official brochure before budgeting.
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Fee slabs</span>
+      <h2>Tuition by category</h2>
+      <p>Your nationality category is the single biggest factor in what you'll pay per semester.</p>
+    </div>
+    <div class="table-wrap reveal">
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Category</th><th>Registration fee</th><th>Tuition (indicative, per semester)</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>Non-SAARC (FN / OCI / PIO / NRI outside SAARC)</td><td>~US $300 (non-refundable)</td><td>~US $3,500 – 4,000+</td><td>Varies significantly by institute; some (e.g. IIIT Hyderabad) charge separately and higher</td></tr>
+            <tr><td>SAARC nationals</td><td>~US $300 (non-refundable)</td><td>~50% of Non-SAARC rate</td><td>50% tuition waiver applies only if qualifying exam was passed in a SAARC country</td></tr>
+            <tr><td>CIWG (Gulf workers' children)</td><td>~US $300 (non-refundable)</td><td>Close to Indian-student fee (≈ ₹60,000–65,000/semester)</td><td>Major saving vs standard Non-SAARC rate; fee difference refunded if later allotted a general seat</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-mid">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Beyond tuition</span>
+      <h2>Living costs you'll pay on top</h2>
+      <p>Hostel and mess fees are billed by the institute, separately from tuition, every semester.</p>
+    </div>
+    <div class="card-grid">
+      <div class="card reveal">
+        <span class="tag">Housing</span>
+        <h3>Hostel charges</h3>
+        <p>Commonly in the range of ₹5,000–8,000 (roughly US $60–100) per month, though this varies significantly by institute and room type.</p>
+      </div>
+      <div class="card reveal">
+        <span class="tag">Food</span>
+        <h3>Mess charges</h3>
+        <p>Typically ₹4,000–6,000 (roughly US $50–75) per month for a standard mess plan, paid semester-wise before the term starts.</p>
+      </div>
+      <div class="card reveal">
+        <span class="tag">One-time</span>
+        <h3>Other costs to plan for</h3>
+        <p>Security deposits, caution money, student ID/library fees, and visa/travel costs are separate from academic fees — build in a buffer for your first semester.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ESTIMATOR -->
+<section id="calculator">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Plan ahead</span>
+      <h2>Rough cost estimator</h2>
+      <p>A ballpark planning tool only — not a quote. Actual costs depend entirely on your allotted institute.</p>
+    </div>
+
+    <div class="passport-panel reveal">
+      <form id="fee-calc">
+        <div style="display:flex;flex-wrap:wrap;gap:24px;align-items:flex-end;margin-bottom:24px;">
+          <div>
+            <span style="display:block;font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:10px;">Category</span>
+            <div style="display:flex;gap:16px;flex-wrap:wrap;">
+              <label style="display:flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:13px;">
+                <input type="radio" name="category" value="nonsaarc" checked> Non-SAARC
+              </label>
+              <label style="display:flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:13px;">
+                <input type="radio" name="category" value="saarc"> SAARC
+              </label>
+              <label style="display:flex;align-items:center;gap:6px;font-family:var(--font-mono);font-size:13px;">
+                <input type="radio" name="category" value="ciwg"> CIWG
+              </label>
+            </div>
+          </div>
+          <div>
+            <label style="display:block;font-family:var(--font-mono);font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin-bottom:10px;" for="sem-count">Semesters to estimate</label>
+            <select id="sem-count" style="padding:10px 14px;border-radius:8px;border:1.5px solid var(--line);font-family:var(--font-mono);font-size:13px;">
+              <option value="1">1 semester</option>
+              <option value="2" selected>2 semesters (Year 1)</option>
+              <option value="8">8 semesters (full B.Tech)</option>
+            </select>
+          </div>
+        </div>
+        <div id="fee-output"></div>
+      </form>
+      <p style="margin-top:18px;font-size:12.5px;color:var(--muted);font-family:var(--font-mono);">Estimator uses illustrative placeholder rates for planning purposes only — not official DASA figures.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container">
+    <span class="eyebrow" style="justify-content:center;">Numbers make sense?</span>
+    <h2 style="margin-top:12px;">Get answers to the questions everyone asks</h2>
+    <p>Scholarships, JEE Advanced eligibility, multiple applications, and more.</p>
+    <div class="cta-actions">
+      <a href="faq.html" class="btn btn-primary">Read the FAQ</a>
+      <a href="process.html" class="btn btn-ghost-light">Revisit the process</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h5>DASA Guide</h5><p style="font-size:14px;line-height:1.6;color:var(--muted-on-dark);max-width:280px;">An independent, plain-English explainer for prospective DASA UG applicants and their families.</p></div>
+      <div><h5>Explore</h5><ul><li><a href="eligibility.html">Eligibility</a></li><li><a href="institutes.html">Institutes</a></li><li><a href="process.html">Application process</a></li><li><a href="fees.html">Fees &amp; funding</a></li></ul></div>
+      <div><h5>Support</h5><ul><li><a href="faq.html">FAQ</a></li><li><a href="process.html#documents">Document checklist</a></li><li><a href="fees.html#calculator">Fee estimator</a></li></ul></div>
+      <div><h5>Official sources</h5><ul><li><a href="https://dasanit.org" target="_blank" rel="noopener">dasanit.org</a></li><li><a href="https://jeemain.nta.nic.in" target="_blank" rel="noopener">JEE Main (NTA)</a></li><li><a href="https://csab.nic.in" target="_blank" rel="noopener">csab.nic.in</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 DASA Guide · Independent educational resource</span>
+      <span>Not affiliated with the Government of India, IIEST Shibpur, or any NIT</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
